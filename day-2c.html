@@ -12,12 +12,24 @@
   <h1>Day 2 Part C</h1>
   <h3>You Try it!</h3>
   <p>Ask the user two questions using propmt. Then give the user a personalized response using the data entered.</p>
-  <script>
-
-
-
+  <p><script>
+    let userName;
+    userName = prompt("What is your name?");
+    document.write(`Hi ${userName}. Welcome to our webpage!`);
   </script>
-
+  </p>
+  <p>
+  <script> 
+    let age;
+    age = prompt("How old are you?");
+    document.write(`The user ${userName} is ${age} years old.`)
+  </script> 
+  </p>
+  <p>
+  <script>
+    document.write(`Hello ${userName}. Being ${age} years old allows you to view our website.`);
+  </script>
+  </p>
 </body>
 
 </html>
